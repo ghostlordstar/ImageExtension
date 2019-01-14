@@ -57,7 +57,7 @@ ImageExtension 是一个在iOS项目中图片处理的扩展类库，简单易�
 
 
 ## Contributing
-希望收到大家的Issues、Pull requests! 📩
+希望收到大家的Issues、Pull requests! 📩
 
 ## License
 `ImageExtension` 使用 MIT 许可证，详情见 LICENSE 文件。
