@@ -30,15 +30,18 @@ ImageExtension 是一个在iOS项目中图片处理的扩展类库，简单易�
 
 ```
 
-    '图片拼接位置：'
+` 图片拼接位置： `
+```
     typedef enum : NSUInteger {
         ImageAppendingDirectionAbove,       // 拼接到上方
         ImageAppendingDirectionBelow,       // 拼接到下方
         ImageAppendingDirectionLeft,        // 拼接到左边
         ImageAppendingDirectionRight,       // 拼接到右边
     } ImageAppendingDirection;
+```
 
-    '图片拼接时的对齐方式；'
+` 图片拼接时的对齐方式： `
+```
     typedef enum : NSUInteger {
         ImageAppendingAlignmentUp,          // 居上对齐
         ImageAppendingAlignmentDown,        // 居下对齐
@@ -46,7 +49,7 @@ ImageExtension 是一个在iOS项目中图片处理的扩展类库，简单易�
         ImageAppendingAlignmentRight,       // 居右对齐
         ImageAppendingAlignmentCenter,      // 居中对齐
     } ImageAppendingAlignment;
-
+```
 ## How it works
     使用Core Graphics框架将两张图片绘制到一张图片上下文中。
 
@@ -54,7 +57,7 @@ ImageExtension 是一个在iOS项目中图片处理的扩展类库，简单易�
 
 
 ## Contributing
-希望收到大家的Issues、Pull requests! 📩
+希望收到大家的Issues、Pull requests! 📩
 
 ## License
-'ImageExtension' 使用 MIT 许可证，详情见 LICENSE 文件。
+`ImageExtension` 使用 MIT 许可证，详情见 LICENSE 文件。
