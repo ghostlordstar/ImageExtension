@@ -37,15 +37,12 @@
 /* 拼接方向 */
 - (IBAction)p_directionValueChange:(UISegmentedControl *)sender {
     
-    NSLog(@"directionChange :%ld",sender.selectedSegmentIndex);
     [self p_updateImgViewWithImageAppendingDirection:self.directionControl.selectedSegmentIndex imageAppendingAlignment:self.alignmentControl.selectedSegmentIndex];
 }
 
 /* 对齐方式 */
 - (IBAction)p_alignmentValueChange:(UISegmentedControl *)sender {
-    
-    NSLog(@"alignmentChange :%ld",sender.selectedSegmentIndex);
-    
+        
     [self p_updateImgViewWithImageAppendingDirection:self.directionControl.selectedSegmentIndex imageAppendingAlignment:self.alignmentControl.selectedSegmentIndex];
 }
 

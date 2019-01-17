@@ -16,6 +16,7 @@
 		F82006EE21EC96B40009D905 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82006ED21EC96B40009D905 /* DemoController.m */; };
 		F82006F521EC9A410009D905 /* DemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82006F421EC9A410009D905 /* DemoController.xib */; };
 		F82006F821EC9AA60009D905 /* UIImage+appendingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F82006F721EC9AA60009D905 /* UIImage+appendingImage.m */; };
+		F8EF7D7521F0BD06008351FE /* UIImage+Superimposed.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF7D7421F0BD06008351FE /* UIImage+Superimposed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		F82006F421EC9A410009D905 /* DemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoController.xib; sourceTree = "<group>"; };
 		F82006F621EC9AA60009D905 /* UIImage+appendingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+appendingImage.h"; sourceTree = "<group>"; };
 		F82006F721EC9AA60009D905 /* UIImage+appendingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+appendingImage.m"; sourceTree = "<group>"; };
+		F8EF7D7321F0BD06008351FE /* UIImage+Superimposed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Superimposed.h"; sourceTree = "<group>"; };
+		F8EF7D7421F0BD06008351FE /* UIImage+Superimposed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Superimposed.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		F82006B921EC96260009D905 /* ImageExtension */ = {
 			isa = PBXGroup;
 			children = (
+				F8EF7D7221F0BC85008351FE /* SuperimposedImage */,
 				F82006EF21EC96BE0009D905 /* AppendingImage */,
 				F82006BA21EC96260009D905 /* AppDelegate.h */,
 				F82006BB21EC96260009D905 /* AppDelegate.m */,
@@ -145,6 +149,15 @@
 				F82006F721EC9AA60009D905 /* UIImage+appendingImage.m */,
 			);
 			path = AppendingImage;
+			sourceTree = "<group>";
+		};
+		F8EF7D7221F0BC85008351FE /* SuperimposedImage */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF7D7321F0BD06008351FE /* UIImage+Superimposed.h */,
+				F8EF7D7421F0BD06008351FE /* UIImage+Superimposed.m */,
+			);
+			path = SuperimposedImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82006F821EC9AA60009D905 /* UIImage+appendingImage.m in Sources */,
+				F8EF7D7521F0BD06008351FE /* UIImage+Superimposed.m in Sources */,
 				F82006EE21EC96B40009D905 /* DemoController.m in Sources */,
 				F82006CA21EC96270009D905 /* main.m in Sources */,
 				F82006BC21EC96260009D905 /* AppDelegate.m in Sources */,
