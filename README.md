@@ -85,15 +85,16 @@ ImageExtension 是一个在iOS项目中图片处理的扩展类库，简单易�
 ```
 
 ## How it works
+图片拼接:
 
-图片拼接
- 使用Core Graphics框架将两张图片绘制到一张图片上下文中。
+使用Core Graphics框架将两张图片绘制到一张图片上下文中。
 
 ![ImageAppendingWork](https://github.com/ghostlordstar/PicRepo/blob/master/DemoShowImg/ImageExtension/appendimage_Demo_show_img_001.png?raw=true)
 
 
-图片叠加：
-    使用Core Graphics框架将需要叠加的图片绘制到底图上下文中。
+图片叠加:
+
+使用Core Graphics框架将需要叠加的图片绘制到底图上下文中。
 
 ![ImageSuperimpositionWork](https://github.com/ghostlordstar/PicRepo/blob/master/DemoShowImg/ImageExtension/ImageExtension_work_superimaposition_001.png?raw=true)
 
