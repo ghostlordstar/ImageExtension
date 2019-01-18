@@ -44,7 +44,7 @@
 
 - (void)p_processImageWithAlpha:(CGFloat)alpha {
     
-    UIImage *resultImage = [self.originImageView.image gl_superimpositionImage:self.superimposedImageView.image superpositionRect:CGRectMake(50.0, 50.0f, 100.0f, 50.0f) imageInsets:UIEdgeInsetsZero blendMode:kCGBlendModeNormal alpha:alpha];
+    UIImage *resultImage = [self.originImageView.image gl_superimpositionImage:self.superimposedImageView.image superpositionRect:CGRectMake(0, 0, 100.0f, 50.0f) imageInsets:UIEdgeInsetsMake(10, 10, 10, 10) blendMode:kCGBlendModeNormal alpha:alpha];
     
     self.resultImageView.image = resultImage;
 }
