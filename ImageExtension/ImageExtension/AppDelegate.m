@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "DemoController.h"
-
+#import "MainViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:[[DemoController alloc] initWithNibName:NSStringFromClass([DemoController class]) bundle:nil]];
+    UINavigationController *naVC = [[UINavigationController alloc] initWithRootViewController:[[MainViewController alloc] initWithNibName:NSStringFromClass([MainViewController class]) bundle:nil]];
     [self.window setRootViewController:naVC];
 
     return YES;
