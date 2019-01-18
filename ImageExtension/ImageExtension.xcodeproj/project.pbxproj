@@ -16,6 +16,10 @@
 		F82006EE21EC96B40009D905 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82006ED21EC96B40009D905 /* DemoController.m */; };
 		F82006F521EC9A410009D905 /* DemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82006F421EC9A410009D905 /* DemoController.xib */; };
 		F82006F821EC9AA60009D905 /* UIImage+appendingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F82006F721EC9AA60009D905 /* UIImage+appendingImage.m */; };
+		F8E94FBD21F1805E00717997 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E94FBB21F1805E00717997 /* MainViewController.m */; };
+		F8E94FBE21F1805E00717997 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E94FBC21F1805E00717997 /* MainViewController.xib */; };
+		F8E94FC221F1817100717997 /* SuperimposedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E94FC021F1817100717997 /* SuperimposedViewController.m */; };
+		F8E94FC321F1817100717997 /* SuperimposedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8E94FC121F1817100717997 /* SuperimposedViewController.xib */; };
 		F8EF7D7521F0BD06008351FE /* UIImage+Superimposed.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF7D7421F0BD06008351FE /* UIImage+Superimposed.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +60,12 @@
 		F82006F421EC9A410009D905 /* DemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoController.xib; sourceTree = "<group>"; };
 		F82006F621EC9AA60009D905 /* UIImage+appendingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+appendingImage.h"; sourceTree = "<group>"; };
 		F82006F721EC9AA60009D905 /* UIImage+appendingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+appendingImage.m"; sourceTree = "<group>"; };
+		F8E94FBA21F1805E00717997 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F8E94FBB21F1805E00717997 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F8E94FBC21F1805E00717997 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F8E94FBF21F1817100717997 /* SuperimposedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperimposedViewController.h; sourceTree = "<group>"; };
+		F8E94FC021F1817100717997 /* SuperimposedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperimposedViewController.m; sourceTree = "<group>"; };
+		F8E94FC121F1817100717997 /* SuperimposedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuperimposedViewController.xib; sourceTree = "<group>"; };
 		F8EF7D7321F0BD06008351FE /* UIImage+Superimposed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Superimposed.h"; sourceTree = "<group>"; };
 		F8EF7D7421F0BD06008351FE /* UIImage+Superimposed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Superimposed.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,9 +122,15 @@
 				F82006EF21EC96BE0009D905 /* AppendingImage */,
 				F82006BA21EC96260009D905 /* AppDelegate.h */,
 				F82006BB21EC96260009D905 /* AppDelegate.m */,
+				F8E94FBA21F1805E00717997 /* MainViewController.h */,
+				F8E94FBB21F1805E00717997 /* MainViewController.m */,
+				F8E94FBC21F1805E00717997 /* MainViewController.xib */,
 				F82006EC21EC96B40009D905 /* DemoController.h */,
 				F82006ED21EC96B40009D905 /* DemoController.m */,
 				F82006F421EC9A410009D905 /* DemoController.xib */,
+				F8E94FBF21F1817100717997 /* SuperimposedViewController.h */,
+				F8E94FC021F1817100717997 /* SuperimposedViewController.m */,
+				F8E94FC121F1817100717997 /* SuperimposedViewController.xib */,
 				F82006F321EC99030009D905 /* PrefixHeader.pch */,
 				F82006C321EC96270009D905 /* Assets.xcassets */,
 				F82006C521EC96270009D905 /* LaunchScreen.storyboard */,
@@ -266,6 +282,8 @@
 				F82006F521EC9A410009D905 /* DemoController.xib in Resources */,
 				F82006C721EC96270009D905 /* LaunchScreen.storyboard in Resources */,
 				F82006C421EC96270009D905 /* Assets.xcassets in Resources */,
+				F8E94FBE21F1805E00717997 /* MainViewController.xib in Resources */,
+				F8E94FC321F1817100717997 /* SuperimposedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82006F821EC9AA60009D905 /* UIImage+appendingImage.m in Sources */,
+				F8E94FBD21F1805E00717997 /* MainViewController.m in Sources */,
 				F8EF7D7521F0BD06008351FE /* UIImage+Superimposed.m in Sources */,
 				F82006EE21EC96B40009D905 /* DemoController.m in Sources */,
+				F8E94FC221F1817100717997 /* SuperimposedViewController.m in Sources */,
 				F82006CA21EC96270009D905 /* main.m in Sources */,
 				F82006BC21EC96260009D905 /* AppDelegate.m in Sources */,
 			);

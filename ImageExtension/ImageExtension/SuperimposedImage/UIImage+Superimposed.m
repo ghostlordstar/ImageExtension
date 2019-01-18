@@ -69,7 +69,7 @@
     resultRect.size.width -= (insets.left + insets.right);
     resultRect.size.height -= (insets.top + insets.bottom);
 
-    return rect;
+    return resultRect;
 }
 
 @end
